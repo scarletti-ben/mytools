@@ -3,21 +3,21 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "template-package"
-version = "0.1.0"
-description = "Template package for Python"
+name = "mytools"
+version = "v0.1.0-alpha"
+description = "Collection of tools used for Python development"
 readme = "README.md"
 requires-python = ">=3.7"
 license = { text = "MIT" }
 
 authors = [
-    { name = "username", email = "username@email.com" }
+    { name = "Ben Scarletti", email = "scarletti.ben@gmail.com" }
 ]
 
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/username/template-package"
+Homepage = "https://github.com/scarletti-ben/mytools"
 
 [tool.setuptools.packages.find]
 where = ["src"]
